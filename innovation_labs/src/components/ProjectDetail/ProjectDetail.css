@@ -1,0 +1,42 @@
+.reproductor {
+  position: absolute !important;
+  left: 23% !important;
+  top: 20% !important;
+  width: 55% !important;
+  height: 75% !important;
+}
+
+.principal {
+  position: absolute !important;
+  height: 75% !important;
+  width: 100% !important;
+  background: #000000 !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.descripcion {
+  position: absolute !important;
+  top: 80% !important;
+  left: 23% !important;
+  width: 55% !important;
+}
+
+.titulo {
+  position: absolute !important;
+  width: 55% !important;
+  left: 23% !important;
+  color: white;
+}
+
+.btnHomeDescription {
+  color: "white";
+}

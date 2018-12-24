@@ -1,0 +1,16 @@
+{
+  "host": "poc-dil-cms-api.azurewebsites.net",
+  "port": 80,
+  "proxy": {
+    "enabled": false
+  },
+  "autoReload": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "autoOpen": true
+  }
+}

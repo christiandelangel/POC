@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "projects",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "default": "",
+      "type": "string"
+    },
+    "Description": {
+      "default": "",
+      "type": "text"
+    },
+    "Tags": {
+      "default": "",
+      "type": "json"
+    },
+    "Id_video": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

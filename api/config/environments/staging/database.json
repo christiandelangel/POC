@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "poc-dil.documents.azure.com",
+        "srv": false,
+        "port": "10255",
+        "database": "dil-cms-strapi",
+        "username": "poc-dil",
+        "password": "BCVLQRocrbtFWrtpPiJHDCLmGEVFNc8CF4RVZACF4TYOAKzhMlbdYTotE7rUS9BDalPGrRWMSThIfnB29zNBag=="
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
